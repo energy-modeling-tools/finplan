@@ -1,6 +1,6 @@
 events:
   - title: "EMP-A 2025 – Addis Ababa, Ethiopia"
-    image: "/assets/img/EMP/EMP-A_2025.png"
+    image: "../assets/img/EMP/EMP-A_2025.png"
     alt: "EMP-A 2025"
     description: "The Energy Modelling Platform - Africa was held from 21st April to 9th May 2025 at the United Nations Economic Commission for Africa (UNECA) in Addis Ababa, Ethiopia."
     outputs:
@@ -29,7 +29,7 @@ events:
         url: "https://www.uneca.org/eca-events/EMP-A-2025"
 
   - title: "EMP-G 2024 – Trieste, Italy"
-    image: "/assets/img/EMP/EMP-G_2024.png"
+    image: "../assets/img/EMP/EMP-G_2024.jpg"
     alt: "EMP-G 2024"
     description: "The Energy Modelling Platform – Global was held from 5th to 23rd August 2024 at the Abdus Salam International Centre for Theoretical Physics (ICTP) in Trieste, Italy."
     outputs:
@@ -54,7 +54,7 @@ events:
         url: "https://indico.ictp.it/event/10501/"
 
   - title: "EMP-A 2024 – Accra, Ghana"
-    image: "/assets/img/EMP/EMP-A_2024.png"
+    image: "../assets/img/EMP/EMP-A_2024.jpg"
     alt: "EMP-A 2024"
     description: "The Energy Modelling Platform – Africa was held from 13th to 31st May 2024 at the Ghana Institute of Management and Public Administration (GIMPA) in Accra, Ghana."
     outputs:
@@ -87,7 +87,7 @@ events:
         url: "https://www.uneca.org/eca-events/EMP-A-2024"
 
   - title: "EMP-LAC 2024 – Rio de Janeiro, Brazil"
-    image: "/assets/img/EMP/EMP-LAC_2024.png"
+    image: "../assets/img/EMP/EMP-LAC_2024.jpg"
     alt: "EMP-LAC 2024"
     description: "The Energy Modelling Platform – Latin America and Caribbean was held from 15th January to 2nd February 2024 at the Universidade Federal de Juiz de Fora (UFJF) in Rio de Janeiro, Brazil."
     outputs:
@@ -104,7 +104,7 @@ events:
         url: "No link available"
 
   - title: "EMP-G 2023 – Trieste, Italy"
-    image: "/assets/img/EMP/EMP-G_2023.png"
+    image: "../assets/img/EMP/EMP-G_2023.jpg"
     alt: "EMP-G 2023"
     description: "The Energy Modelling Platform – Global was held from 26th June to 14th July 2023 at the Abdus Salam International Centre for Theoretical Physics (ICTP) in Trieste, Italy."
     outputs:
@@ -145,7 +145,7 @@ events:
         url: "https://indico.ictp.it/event/10186"
 
   - title: "EMP-A 2023 – Windhoek, Namibia"
-    image: "/assets/img/EMP/EMP-A_2023.png"
+    image: "../assets/img/EMP/EMP-A_2023.jpg"
     alt: "EMP-A 2023"
     description: "The Energy Modelling Platform – Africa was held from 10th to 28th April 2023 at the University of Namibia (UNAM) in Windhoek, Namibia."
     outputs:
@@ -178,7 +178,7 @@ events:
         url: "https://www.uneca.org/eca-events/empa2023"
 
   - title: "EMP-LAC 2023 – San José, Costa Rica"
-    image: "/assets/img/EMP/EMP-LAC_2023.png"
+    image: "../assets/img/EMP/EMP-LAC_2023.jpg"
     alt: "EMP-LAC 2023"
     description: "The Energy Modelling Platform – Latin America and Caribbean was held from 16th January to 3rd February 2023 at the Universidad de Costa Rica (UCR) in San José, Costa Rica."
     outputs:
@@ -203,4 +203,4 @@ adjacent_events:
      flag: "🇸🇱"
      title: "Sierra Leone FINPLAN Workshop"
      url: "https://www.linkedin.com/feed/update/urn:li:activity:7313562696170299393/"
-     image: "/assets/img/EMP/SL_2025.png"
+     image: "../assets/img/EMP/SL_2025.jpg"
