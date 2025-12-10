@@ -1,115 +1,74 @@
 ---
 theme: jekyll-theme-primer
 layout: sub-page
-title: FINPLAN
+title: Learning & Capacity Building
 permalink: /learning_capacity/
 ---
 
 <section class="bg-gray-light py-5 fade-in-center">
   <div class="container-lg p-responsive">
-
-  <div class="text-center fade-in-center">
-    <h2 class="alt-h2 mb-4">Learning & Capacity Building</h2>
-  </div>
-    <div class="mt-3 animate-in">
-       <h3 class="alt-h3 mt-3 animate-in" style="font-size: 1.25rem;">
-        <a href="https://www.open.edu/openlearncreate/course/view.php?id=13558" class="text-dark font-weight-bold" style="text-decoration: none;">
-          <strong>📘 Open University Course on Financial Analysis of Power Sector Projects Using the FINPLAN Model</strong>
-        </a>
-      </h3>
-      <p class="animate-in" style="font-size: 0.95rem;">This training course will provide basic knowledge on financial theory, will show how financing is done in the power sector across the world, with primary focus on developing countries, and will demonstrate how to carry out financial analysis of power projects using FINPLAN. </p>
-      <p class="animate-in">
-        <a href="https://www.open.edu/openlearncreate/course/view.php?id=13669" class="btn btn-outline-light">Access Here →</a>
-      </p>
+    <div class="text-center">
+      <h2 class="alt-h2 mb-4">Learning & Capacity Building</h2>
     </div>
 
+    <h3 class="alt-h3 mt-3">📘 Open University Course on Financial Analysis of Power Sector Projects Using the FINPLAN Model</h3>
+    <p>This training course will provide basic knowledge on financial theory, will show how financing is done in the power sector across the world, with primary focus on developing countries, and will demonstrate how to carry out financial analysis of power projects using FINPLAN.</p>
+    <p><a href="https://www.open.edu/openlearncreate/course/view.php?id=13669" target="_blank" class="btn btn-outline-primary sky-blue-accent">Access Here →</a></p>
 
-    <div class="mt-3 animate-in">
-      <h3 class="alt-h3 mt-3 animate-in" style="font-size: 1.25rem;">📦 User Interface/Download Link</h3>
-      <p class="animate-in" style="font-size: 0.95rem;">Enhance your skills in financial analysis of energy projects with our user-friendly interface and supporting learning materials, enabling comprehensive assessments of power sector investment viability at the national level.</p>
-          <ul class="animate-in">
-            <li><strong>Download Interface</strong> https://forms.office.com/Pages/ResponsePage.aspx?id=wE8mz7iun0SQVILORFQISwwn5YyR7ONHs-3JdG3f5AFUODlJOEQwWTBXMlRRNFUwNEpUTUZYQ1RXOS4u </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-<!--
-    <div class="mt-3 animate-in">
-      <h3 class="alt-h3 mt-1 animate-in" style="font-size: 1.25rem;">🎓 Energy Modelling Community (YouTube Playlist)</h3>
-      <div class="row align-items-center text-left mb-4 animate-in">
-        <div class="col-md-6">
-          <p class="animate-in" style="font-size: 0.95rem;">Explore insights and community discussions from the Energy Modelling Platform and Climate Compatible Growth events.</p>
-          <p class="animate-in"><a href="https://www.youtube.com/watch?v=of8JpyEd8_Y&list=PLhLN8V8JSUnJgt4SIE7gnXXncVEaXh0Ir" target="_blank" class="btn btn-outline-primary sky-blue-accent d-block d-sm-inline-block px-1 px-md-3" style="border-color: #3490dc; color: #3490dc;">Watch on YouTube →</a></p>
-        </div>
-      </div>
-    </div>
--->
+    <h3 class="alt-h3 mt-4">📦 User Interface/Download Link</h3>
+    <p>Enhance your skills in financial analysis of energy projects with our user-friendly interface and supporting learning materials, enabling comprehensive assessments of power sector investment viability at the national level.</p>
+    <p><a href="https://forms.office.com/Pages/ResponsePage.aspx?id=wE8mz7iun0SQVILORFQISwwn5YyR7ONHs-3JdG3f5AFUODlJOEQwWTBXMlRRNFUwNEpUTUZYQ1RXOS4u" target="_blank" class="btn btn-outline-primary sky-blue-accent">Download Interface →</a></p>
 
-    <div class="mt-3 animate-in">
-      <h3 class="alt-h3 mt-3 animate-in" style="font-size: 1.25rem;">
-        <a href="https://climatecompatiblegrowth.com/energy-modelling-platform/" class="text-dark font-weight-bold" style="text-decoration: none;">
-          <strong>🌍 Energy Modelling Platforms (EMPs)</strong>
-        </a>
-      </h3>
-      <p class="animate-in" style="font-size: 0.95rem;">By offering training to professionals from the Global South, the Energy Modelling Platforms (EMPs) enable these countries to gather critical data, perform independent analyses, and develop credible investment proposals for clean energy infrastructure projects. EMPs play a vital role in what we refer to as local capacity building.</p>
-      <p class="animate-in">
-        <a href="https://climatecompatiblegrowth.com/energy-modelling-platform/" class="btn btn-outline-light">Learn more →</a>
-      </p>
-    </div>
+    <h3 class="alt-h3 mt-4">🌍 Energy Modelling Platforms (EMPs)</h3>
+    <p>By offering training to professionals from the Global South, the Energy Modelling Platforms (EMPs) enable these countries to gather critical data, perform independent analyses, and develop credible investment proposals for clean energy infrastructure projects. EMPs play a vital role in what we refer to as local capacity building.</p>
+    <p><a href="https://climatecompatiblegrowth.com/energy-modelling-platform/" target="_blank" class="btn btn-outline-primary sky-blue-accent">Learn more →</a></p>
 
-
-    <div class="container-lg p-responsive py-4 py-md-6 my-lg-6 animate-in">
-      <h3 class="alt-h3 text-center mb-3 animate-in" style="font-size: 1.25rem;">🌍 Explore EMP Events</h3>
-      
+    <div class="mt-5">
+      <h3 class="alt-h3 text-center">🌍 Explore EMP Events</h3>
       <div class="clearfix gutter-spacious">
         {% for event in site.data.learning_events.events %}
         <div class="col-md-4 float-left animate-in mb-4">
           <h3 class="alt-h3 mb-3">{{ event.title }}</h3>
-          <p><a href="" target="_blank">
-            <img src="{{ event.image }}" class="img-fluid" alt="{{ event.alt }}"/></a>
-          </p>
+          <p><img src="{{ event.image }}" class="img-fluid" alt="{{ event.alt }}"/></p>
           <p class="text-gray">{{ event.description }}</p>
-          <details class="animate-in">
+          <details>
             <summary class="btn btn-sm btn-outline toggle-arrow">Show Outputs</summary>
             <ul class="mt-2">
               {% for output in event.outputs %}
-              <li class="animate-in">{{ output.flag }} <strong>{{ output.country }}</strong>: <a href="{{ output.url }}" target="_blank">{{ output.title }}</a></li>
+              <li>{{ output.flag }} <strong>{{ output.country }}</strong>: <a href="{{ output.url }}" target="_blank">{{ output.title }}</a></li>
               {% endfor %}
             </ul>
           </details>
           {% if event.links %}
-  <p class="mt-2"><strong>Related Links:</strong></p>
-  <ul class="mt-1">
-    {% for link in event.links %}
-      <li><a href="{{ link.url }}" target="_blank">{{ link.title }}</a></li>
-    {% endfor %}
-  </ul>
-{% endif %}
+            <p class="mt-2"><strong>Related Links:</strong></p>
+            <ul class="mt-1">
+              {% for link in event.links %}
+                <li><a href="{{ link.url }}" target="_blank">{{ link.title }}</a></li>
+              {% endfor %}
+            </ul>
+          {% endif %}
         </div>
         {% endfor %}
       </div>
-
- EMP-Adjacent Events 
-      <div class="clearfix gutter-spacious">
-        <div class="col-md-12 animate-in mb-4">
-          <h3 class="alt-h3 mb-3">EMP-Adjacent Events</h3>
-          <p class="text-gray">These capacity building events used the FINPLAN methodology outside the formal EMP series:</p>
-          <ul>
-            {% for adjacent in site.data.learning_events.adjacent_events %}
-  <li class="animate-in mb-3">
-    {{ adjacent.flag }} 
-    <a href="{{ adjacent.url }}" target="_blank">{{ adjacent.title }}</a>
-    {% if adjacent.image %}
-      <div><img src="{{ adjacent.image }}" class="img-fluid mt-2" alt="{{ adjacent.title }}"/></div>
-    {% endif %}
-  </li>
-{% endfor %}
-          </ul>
-        </div>
-      </div>
     </div>
 
-  
+    <div class="mt-5">
+      <h3 class="alt-h3 text-center mb-3">EMP-Adjacent Events</h3>
+      <p class="text-gray text-center">These capacity building events used the FINPLAN methodology outside the formal EMP series:</p>
+      <div class="clearfix gutter-spacious">
+        <ul style="list-style: none; padding-left: 0;">
+          {% for adjacent in site.data.learning_events.adjacent_events %}
+            <li class="mb-4 text-center">
+              {{ adjacent.flag }}
+              <a href="{{ adjacent.url }}" target="_blank" class="font-weight-bold">{{ adjacent.title }}</a>
+              {% if adjacent.image %}
+                <div class="mt-2"><img src="{{ adjacent.image }}" class="img-fluid rounded" alt="{{ adjacent.title }}" style="max-width: 300px;"/></div>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
 
   </div>
 </section>
