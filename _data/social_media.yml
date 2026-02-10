@@ -2,8 +2,8 @@
   icon: bi bi-github
   url: https://github.com/FINPLAN-Model 
 
-- name: Discord
-  icon: bi bi-discord
+- name: Discourse
+  icon: /assets/img/EMC_2_smaller.png
   url: https://forum.u4ria.org/
 
 
