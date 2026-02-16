@@ -6,94 +6,94 @@ permalink: /learning_capacity/
 ---
 
 <section class="bg-gray-light py-5 fade-in-center">
-  <div class="container-lg p-responsive">
-    <div class="text-center">
-      <h2 class="alt-h2 mb-4">Learning & Capacity Building</h2>
-    </div>
+ <div class="container-lg p-responsive">
+ <div class="text-center">
+ <h2 class="alt-h2 mb-4">Learning & Capacity Building</h2>
+ </div>
 
-    <h3 class="alt-h3 mt-3">📘 Open University Course on Financial Analysis of Power Sector Projects Using the FINPLAN Model</h3>
-    <p>This training course will provide basic knowledge on financial theory, will show how financing is done in the power sector across the world, with primary focus on developing countries, and will demonstrate how to carry out financial analysis of power projects using FINPLAN.</p>
-    <p><a href="https://www.open.edu/openlearncreate/course/view.php?id=13669" target="_blank" class="btn btn-outline-primary sky-blue-accent">Access Here →</a></p>
+ <h3 class="alt-h3 mt-3">📘 Open University Course on Financial Analysis of Power Sector Projects Using the FINPLAN Model</h3>
+ <p>This training course will provide basic knowledge on financial theory, will show how financing is done in the power sector across the world, with primary focus on developing countries, and will demonstrate how to carry out financial analysis of power projects using FINPLAN.</p>
+ <p><a href="https://www.open.edu/openlearncreate/course/view.php?id=13669" target="_blank" class="btn btn-outline-primary sky-blue-accent">Access Here →</a></p>
 
-    <h3 class="alt-h3 mt-4">📦 User Interface/Download Link</h3>
-    <p>Enhance your skills in financial analysis of energy projects with our user-friendly interface and supporting learning materials, enabling comprehensive assessments of power sector investment viability at the national level.</p>
-    <p><a href="https://forms.office.com/Pages/ResponsePage.aspx?id=wE8mz7iun0SQVILORFQISwwn5YyR7ONHs-3JdG3f5AFUODlJOEQwWTBXMlRRNFUwNEpUTUZYQ1RXOS4u" target="_blank" class="btn btn-outline-primary sky-blue-accent">Download Interface →</a></p>
+ <h3 class="alt-h3 mt-4">📦 User Interface/Download Link</h3>
+ <p>Enhance your skills in financial analysis of energy projects with our user-friendly interface and supporting learning materials, enabling comprehensive assessments of power sector investment viability at the national level.</p>
+ <p><a href="https://forms.office.com/Pages/ResponsePage.aspx?id=wE8mz7iun0SQVILORFQISwwn5YyR7ONHs-3JdG3f5AFUODlJOEQwWTBXMlRRNFUwNEpUTUZYQ1RXOS4u" target="_blank" class="btn btn-outline-primary sky-blue-accent">Download Interface →</a></p>
 
-    <h3 class="alt-h3 mt-4">🌍 Energy Modelling Platforms (EMPs)</h3>
-    <p>By offering training to professionals from the Global South, the Energy Modelling Platforms (EMPs) enable these countries to gather critical data, perform independent analyses, and develop credible investment proposals for clean energy infrastructure projects. EMPs play a vital role in what we refer to as local capacity building.</p>
-    <p><a href="https://climatecompatiblegrowth.com/energy-modelling-platform/" target="_blank" class="btn btn-outline-primary sky-blue-accent">Learn more →</a></p>
+ <h3 class="alt-h3 mt-4">🌍 Energy Modelling Platforms (EMPs)</h3>
+ <p>By offering training to professionals from the Global South, the Energy Modelling Platforms (EMPs) enable these countries to gather critical data, perform independent analyses, and develop credible investment proposals for clean energy infrastructure projects. EMPs play a vital role in what we refer to as local capacity building.</p>
+ <p><a href="https://climatecompatiblegrowth.com/energy-modelling-platform/" target="_blank" class="btn btn-outline-primary sky-blue-accent">Learn more →</a></p>
 
-    <div class="mt-5">
-      <h3 class="alt-h3 text-center">🌍 Explore EMP Events</h3>
-      <div class="clearfix gutter-spacious">
-        {% for event in site.data.learning_events.events %}
-        <div class="col-md-4 float-left animate-in mb-4">
-          <h3 class="alt-h3 mb-3">{{ event.title }}</h3>
-          <p><img src="{{ event.image }}" class="img-fluid" alt="{{ event.alt }}"/></p>
-          <p class="text-gray">{{ event.description }}</p>
-          <details>
-            <summary class="btn btn-sm btn-outline toggle-arrow">Show Outputs</summary>
-            <ul class="mt-2">
-              {% for output in event.outputs %}
-              <li>{{ output.flag }} <strong>{{ output.country }}</strong>: <a href="{{ output.url }}" target="_blank">{{ output.title }}</a></li>
-              {% endfor %}
-            </ul>
-          </details>
-          {% if event.links %}
-            <p class="mt-2"><strong>Related Links:</strong></p>
-            <ul class="mt-1">
-              {% for link in event.links %}
-                <li><a href="{{ link.url }}" target="_blank">{{ link.title }}</a></li>
-              {% endfor %}
-            </ul>
-          {% endif %}
-        </div>
-        {% endfor %}
-      </div>
-    </div>
+ <div class="mt-5">
+ <h3 class="alt-h3 text-center">🌍 Explore EMP Events</h3>
+ <div class="clearfix gutter-spacious">
+ {% for event in site.data.learning_events.events %}
+ <div class="col-md-4 float-left animate-in mb-4">
+ <h3 class="alt-h3 mb-3">{{ event.title }}</h3>
+ <p><img src="{{ event.image }}" class="img-fluid" alt="{{ event.alt }}"/></p>
+ <p class="text-gray">{{ event.description }}</p>
+ <details>
+ <summary class="btn btn-sm btn-outline toggle-arrow">Show Outputs</summary>
+ <ul class="mt-2">
+ {% for output in event.outputs %}
+ <li>{{ output.flag }} <strong>{{ output.country }}</strong>: <a href="{{ output.url }}" target="_blank">{{ output.title }}</a></li>
+ {% endfor %}
+ </ul>
+ </details>
+ {% if event.links %}
+ <p class="mt-2"><strong>Related Links:</strong></p>
+ <ul class="mt-1">
+ {% for link in event.links %}
+ <li><a href="{{ link.url }}" target="_blank">{{ link.title }}</a></li>
+ {% endfor %}
+ </ul>
+ {% endif %}
+ </div>
+ {% endfor %}
+ </div>
+ </div>
 
-    <div class="mt-5">
-      <h3 class="alt-h3 text-center mb-3">EMP-Adjacent Events</h3>
-      <p class="text-gray text-center">These capacity building events used the FINPLAN methodology outside the formal EMP series:</p>
-      <div class="clearfix gutter-spacious">
-        <ul style="list-style: none; padding-left: 0;">
-          {% for adjacent in site.data.learning_events.adjacent_events %}
-            <li class="mb-4 text-center">
-              {{ adjacent.flag }}
-              <a href="{{ adjacent.url }}" target="_blank" class="font-weight-bold">{{ adjacent.title }}</a>
-              {% if adjacent.image %}
-                <div class="mt-2"><img src="{{ adjacent.image }}" class="img-fluid rounded" alt="{{ adjacent.title }}" style="max-width: 300px;"/></div>
-              {% endif %}
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
+ <div class="mt-5">
+ <h3 class="alt-h3 text-center mb-3">EMP-Adjacent Events</h3>
+ <p class="text-gray text-center">These capacity building events used the FINPLAN methodology outside the formal EMP series:</p>
+ <div class="clearfix gutter-spacious">
+ <ul>
+ {% for adjacent in site.data.learning_events.adjacent_events %}
+ <li class="mb-4 text-center">
+ {{ adjacent.flag }}
+ <a href="{{ adjacent.url }}" target="_blank" class="font-weight-bold">{{ adjacent.title }}</a>
+ {% if adjacent.image %}
+<div class="mt-2"><img src="{{ adjacent.image }}" class="img-fluid rounded content-img-sm" alt="{{ adjacent.title }}"/></div>
+ {% endif %}
+ </li>
+ {% endfor %}
+ </ul>
+ </div>
+ </div>
 
-  </div>
+ </div>
 </section>
 
 <style>
 /* Fade-in animation for main title */
 .fade-in-center {
-  opacity: 0;
-  transform: translateY(20px);
-  animation: fadeInUp 1s ease forwards;
+ opacity: 0;
+ transform: translateY(20px);
+ animation: fadeInUp 1s ease forwards;
 }
 
 @keyframes fadeInUp {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+ to {
+ opacity: 1;
+ transform: translateY(0);
+ }
 }
 
 /* Animate-in effects for all elements */
 .animate-in {
-  opacity: 0;
-  transform: translateY(30px);
-  animation: animateIn 0.8s ease-out forwards;
-  animation-delay: var(--animation-delay, 0s);
+ opacity: 0;
+ transform: translateY(30px);
+ animation: animateIn 0.8s ease-out forwards;
+ animation-delay: var(--animation-delay, 0s);
 }
 
 /* Staggered animation delays */
@@ -115,64 +115,64 @@ permalink: /learning_capacity/
 
 /* Column hover effects */
 .col-md-4.float-left {
-  transition: all 0.3s ease;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
+ transition: all 0.3s ease;
+ display: flex;
+ flex-direction: column;
+ height: 100%;
 }
 
 .col-md-4.float-left:hover {
-  transform: translateY(-4px);
+ transform: translateY(-4px);
 }
 
 /* Standardize column height and content distribution */
-.col-md-4.float-left > h3 {
-  flex-shrink: 0;
-  min-height: 5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  margin-bottom: 1rem;
-  line-height: 1.3;
+.col-md-4.float-left> h3 {
+ flex-shrink: 0;
+ min-height: 5rem;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ margin-bottom: 1rem;
+ line-height: 1.3;
 }
 
-.col-md-4.float-left > p:first-of-type {
-  flex-shrink: 0;
-  text-align: center;
-  margin-bottom: 1rem;
+.col-md-4.float-left> p:first-of-type {
+ flex-shrink: 0;
+ text-align: center;
+ margin-bottom: 1rem;
 }
 
 /* Standardized image container */
 .col-md-4 img {
-  width: 100%;
-  height: 220px;
-  object-fit: cover;
-  object-position: center;
-  border-radius: 8px;
-  transition: transform 0.3s ease;
+ width: 100%;
+ height: 220px;
+ object-fit: cover;
+ object-position: center;
+ border-radius: 8px;
+ transition: transform 0.3s ease;
 }
 
 .col-md-4 img:hover {
-  transform: scale(1.02);
+ transform: scale(1.02);
 }
 
 /* Text content area - flexible height */
-.col-md-4.float-left > p.text-gray {
-  flex: 1;
-  margin-bottom: 1.5rem;
-  line-height: 1.5;
+.col-md-4.float-left> p.text-gray {
+ flex: 1;
+ margin-bottom: 1.5rem;
+ line-height: 1.5;
 }
 
 /* Details section at bottom - aligned */
-.col-md-4.float-left > details {
-  margin-top: auto;
-  align-self: flex-start;
+.col-md-4.float-left> details {
+ margin-top: auto;
+ align-self: flex-start;
 }
 
 /* Button alignment */
-.col-md-4.float-left > details > summary {
-  margin: 0;
+.col-md-4.float-left> details> summary {
+ margin: 0;
 }
 
 /* List item animations */
@@ -187,47 +187,47 @@ li.animate-in:nth-child(8) { animation-delay: 0.8s; }
 li.animate-in:nth-child(9) { animation-delay: 0.9s; }
 
 @keyframes animateIn {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+ from {
+ opacity: 0;
+ transform: translateY(30px);
+ }
+ to {
+ opacity: 1;
+ transform: translateY(0);
+ }
 }
 
 /* Hover effects for interactive elements */
 .animate-in:hover {
-  transform: translateY(-2px);
-  transition: transform 0.3s ease;
+ transform: translateY(-2px);
+ transition: transform 0.3s ease;
 }
 
 /* Enhanced container animations */
 .container .animate-in {
-  animation-delay: 0.3s;
+ animation-delay: 0.3s;
 }
 
 /* Button hover animations */
 .btn.animate-in:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  transition: all 0.3s ease;
+ transform: translateY(-2px);
+ box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+ transition: all 0.3s ease;
 }
 
 /* Image animations */
 img.animate-in:hover {
-  transform: scale(1.05);
-  transition: transform 0.3s ease;
+ transform: scale(1.05);
+ transition: transform 0.3s ease;
 }
 
 .toggle-arrow::after {
-  content: '↓';
-  display: inline-block;
-  margin-left: 6px;
-  transition: transform 0.3s ease;
+ content: '↓';
+ display: inline-block;
+ margin-left: 6px;
+ transition: transform 0.3s ease;
 }
 details[open] .toggle-arrow::after {
-  transform: rotate(180deg);
+ transform: rotate(180deg);
 }
 </style>
