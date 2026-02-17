@@ -1,7 +1,7 @@
 ---
 theme: jekyll-theme-primer
 layout: sub-page
-title: FFRM
+title: FINPLAN
 permalink: /applications/
 ---
 <section class="bg-gray-light container-lg p-responsive py-4 py-md-6 my-lg-6 fade-in-center">
@@ -14,16 +14,16 @@ permalink: /applications/
 
      <div class="applications-grid">
       <div class="application-category">
-        <h3 class="category-title">International Organistations</h3>
+        <h3 class="category-title">International Organizations</h3>
         <ul class="application-list">
-          <li><a href="https://inis.iaea.org/records/jxtmq-ake29">NAnalysing the financial viability of WASP expansion plans using the FINPLAN model.</a></li>
+          <li><a href="https://inis.iaea.org/records/jxtmq-ake29">Analysing the financial viability of WASP expansion plans using the FINPLAN model.</a></li>
         </ul>  
       </div>
 
       <div class="application-category">
         <h3 class="category-title">Academia</h3>
         <ul class="application-list">
-          <li><a href="https://nucet.pensoft.net/article/54003/">Assessment of costs of nuclear power in Bangladesh.
+          <li><a href="https://nucet.pensoft.net/article/54003/">Assessment of costs of nuclear power in Bangladesh.</a></li>
         </ul>
       </div>
     </div>
@@ -368,10 +368,11 @@ permalink: /applications/
 // Enhanced Slider Functionality
 let slideIndex = 0;
 const textSlider = document.getElementById("textSlider");
-const textSlides = textSlider.children.length;
 const dotsContainer = document.getElementById("sliderDots");
+const textSlides = textSlider ? textSlider.children.length : 0;
 
 function updateSlider() {
+  if (!textSlider) return;
   textSlider.style.transform = `translateX(-${slideIndex * 100}%)`;
   updateDots();
 }
@@ -387,6 +388,7 @@ function slideTextPrev() {
 }
 
 function createDots() {
+  if (!dotsContainer) return;
   for (let i = 0; i < textSlides; i++) {
     const dot = document.createElement("span");
     dot.classList.add("dot");
@@ -406,16 +408,19 @@ function updateDots() {
 }
 
 // Auto-slide functionality
-let sliderInterval = setInterval(slideTextNext, 5000);
-
-// Pause auto-slide on hover
-textSlider.parentElement.addEventListener("mouseenter", () => {
-  clearInterval(sliderInterval);
-});
-
-textSlider.parentElement.addEventListener("mouseleave", () => {
+let sliderInterval = null;
+if (textSlider && textSlides > 0) {
   sliderInterval = setInterval(slideTextNext, 5000);
-});
+
+  // Pause auto-slide on hover
+  textSlider.parentElement.addEventListener("mouseenter", () => {
+    clearInterval(sliderInterval);
+  });
+
+  textSlider.parentElement.addEventListener("mouseleave", () => {
+    sliderInterval = setInterval(slideTextNext, 5000);
+  });
+}
 
 // Keyboard navigation
 document.addEventListener("keydown", (e) => {
@@ -426,7 +431,9 @@ document.addEventListener("keydown", (e) => {
   }
 });
 
-// Initialize
-createDots();
-updateSlider();
+// Initialize only when slider markup exists.
+if (textSlider && dotsContainer && textSlides > 0) {
+  createDots();
+  updateSlider();
+}
 </script>
