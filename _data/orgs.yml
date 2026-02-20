@@ -3,26 +3,31 @@ partners:
   - name: International Atomic Energy Agency (IAEA) 
     logo: /assets/img/partners/international_atomic_energy_agency_iaea.svg
     display_name: International Atomic Energy Agency
-    url: https://www.iaea.org/  
+    url: https://www.iaea.org/
+    height: 80
 
   - name: Climate Compatible Growth (CCG)
     logo: /assets/img/partners/climate_compatible_growth_ccg.svg
     display_name: Climate Compatible Growth 
-    url: https://climatecompatiblegrowth.com/ 
+    url: https://climatecompatiblegrowth.com/
+    height: 80
 
   - name: Imperial College London (ICL)
     logo: /assets/img/partners/imperial_college_london_icl.svg
     display_name: Imperial College London 
-    url:  https://www.imperial.ac.uk/  
+    url:  https://www.imperial.ac.uk/
+    height: 80
 
   - name: Loughborough University (LU)
     logo: /assets/img/partners/loughborough_university_lu.svg
     display_name: Loughborough University
-    url: https://www.lboro.ac.uk/ 
+    url: https://www.lboro.ac.uk/
+    height: 80
 
   - name: University of Oxford (UO)
     logo: /assets/img/partners/university_of_oxford_uo.svg
     display_name: University of Oxford
-    url:  https://www.ox.ac.uk/   
+    url:  https://www.ox.ac.uk/
+    height: 80   
 
 
