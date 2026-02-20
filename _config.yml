@@ -7,7 +7,7 @@
 
 # global settings
 title: FINPLAN
-logo: "/assets/img/logos/FINPLAN.svg"
+logo: "/assets/img/logos/finplan.svg"
 description: "GitHub helps government build software better, together"
 baseurl: "/finplan"
 permalink: "/stories/:title"
