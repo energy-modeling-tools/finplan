@@ -12,15 +12,21 @@ permalink: /learning_capacity/
  </div>
 
  <h3 class="alt-h3 mt-3">📘 Open University Course on Financial Analysis of Power Sector Projects Using the FINPLAN Model</h3>
+ <!-- CMS:section id=learning_capacity_open_university_course_on_financial -->
  <p>This training course will provide basic knowledge on financial theory, will show how financing is done in the power sector across the world, with primary focus on developing countries, and will demonstrate how to carry out financial analysis of power projects using FINPLAN.</p>
+ <!-- /CMS:section -->
  <p><a href="https://www.open.edu/openlearncreate/course/view.php?id=13669" target="_blank" class="btn btn-outline-primary sky-blue-accent">Access Here →</a></p>
 
  <h3 class="alt-h3 mt-4">📦 User Interface/Download Link</h3>
+ <!-- CMS:section id=learning_capacity_user_interface_download_link -->
  <p>Enhance your skills in financial analysis of energy projects with our user-friendly interface and supporting learning materials, enabling comprehensive assessments of power sector investment viability at the national level.</p>
+ <!-- /CMS:section -->
  <p><a href="https://forms.office.com/Pages/ResponsePage.aspx?id=wE8mz7iun0SQVILORFQISwwn5YyR7ONHs-3JdG3f5AFUODlJOEQwWTBXMlRRNFUwNEpUTUZYQ1RXOS4u" target="_blank" class="btn btn-outline-primary sky-blue-accent">Download Interface →</a></p>
 
  <h3 class="alt-h3 mt-4">🌍 Energy Modelling Platforms (EMPs)</h3>
+ <!-- CMS:section id=learning_capacity_energy_modelling_platforms_emps -->
  <p>By offering training to professionals from the Global South, the Energy Modelling Platforms (EMPs) enable these countries to gather critical data, perform independent analyses, and develop credible investment proposals for clean energy infrastructure projects. EMPs play a vital role in what we refer to as local capacity building.</p>
+ <!-- /CMS:section -->
  <p><a href="https://climatecompatiblegrowth.com/energy-modelling-platform/" target="_blank" class="btn btn-outline-primary sky-blue-accent">Learn more →</a></p>
 
  <div class="mt-5">
@@ -40,7 +46,9 @@ permalink: /learning_capacity/
  </ul>
  </details>
  {% if event.links %}
+ <!-- CMS:section id=learning_capacity_event_title -->
  <p class="mt-2"><strong>Related Links:</strong></p>
+ <!-- /CMS:section -->
  <ul class="mt-1">
  {% for link in event.links %}
  <li><a href="{{ link.url }}" target="_blank">{{ link.title }}</a></li>
@@ -54,7 +62,9 @@ permalink: /learning_capacity/
 
  <div class="mt-5">
  <h3 class="alt-h3 text-center mb-3">EMP-Adjacent Events</h3>
+ <!-- CMS:section id=learning_capacity_emp_adjacent_events -->
  <p class="text-gray text-center">These capacity building events used the FINPLAN methodology outside the formal EMP series:</p>
+ <!-- /CMS:section -->
  <div class="clearfix gutter-spacious">
  <ul>
  {% for adjacent in site.data.learning_events.adjacent_events %}

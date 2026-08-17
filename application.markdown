@@ -10,21 +10,27 @@ permalink: /applications/
   </div>
 
   <div class="applications-content text-left">
+    <!-- CMS:section id=application_finplan_applications -->
     <p class="lead mb-4">FINPLAN can be used for a wide range of financial analysis applications across government, utilities, and development institutions. Several examples include:  </p>
+    <!-- /CMS:section -->
 
      <div class="applications-grid">
       <div class="application-category">
         <h3 class="category-title">International Organizations</h3>
+        <!-- CMS:section id=application_international_organizations -->
         <ul class="application-list">
           <li><a href="https://inis.iaea.org/records/jxtmq-ake29">Analysing the financial viability of WASP expansion plans using the FINPLAN model.</a></li>
-        </ul>  
+        </ul>
+        <!-- /CMS:section -->  
       </div>
 
       <div class="application-category">
         <h3 class="category-title">Academia</h3>
+        <!-- CMS:section id=application_academia -->
         <ul class="application-list">
           <li><a href="https://nucet.pensoft.net/article/54003/">Assessment of costs of nuclear power in Bangladesh.</a></li>
         </ul>
+        <!-- /CMS:section -->
       </div>
     </div>
   </div>
@@ -34,7 +40,9 @@ permalink: /applications/
 <section class="container-lg p-responsive py-4 py-md-6 my-lg-6">
   <div class="recommended-reading">
     <h2 class="alt-h2 text-center mb-4">Recommended Reading</h2>
+    <!-- CMS:section id=application_recommended_reading -->
     <p class="text-center mb-5">For a broader analysis of applications and advancements in FINPLAN, see the following peer-reviewed publications:</p>
+    <!-- /CMS:section -->
 
     <div class="publications-list">
       {% for publication in site.data.publications %}
